@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: livicc600, sans-serif;
+    color: $primary-100;
+    background-color: $primary-700;
+    line-height: 1.55;
+    font-size: rem(18px);
+    margin: 0;
+    padding: 0;
+
+}
+
+h3,
+h2,
+h1 {
+    font-family: livicc700, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+
+    &.large {
+        font-size: rem(100px);
+        line-height: 1;
+    }
+
+    &.small {
+        font-size: rem(64px);
+        line-height: 1.142;
+    }
+}
+
+h2 {
+    font-size: rem(48px);
+    line-height: 1;
+}
+
+h3 {
+    font-size: rem(18px);
+    line-height: 1.55;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: $primary-100;
+    text-decoration: none;
+}
+
+button {
+    font-size: rem(18px);
+    line-height: 1.55;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 2em;
+    border: 2px solid;
+    padding: rem(8.1px) rem(33.5px);
+    cursor: pointer;
+
+    &:disabled {
+        opacity: .25;
+    }
+}
+
+.btn-parimary {
+    color: $primary-100;
+    border-color: $primary-100;
+
+    &:hover:hover:enabled {
+        color: $sercondary-500;
+        background-color: $primary-100;
+    }
+
+    &.dark {
+        color: $sercondary-600;
+        background-color: $primary-100;
+
+        &:hover:hover:enabled {
+            color: $primary-100;
+            background-color: $sercondary-600;
+            border-color: $sercondary-600;
+        }
+    }
+}
+
+.btn-secondary {
+    background-color: $primary-100;
+    color: $sercondary-500;
+
+    &:hover:hover:enabled {
+        background-color: $sercondary-200;
+    }
+}

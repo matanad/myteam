@@ -1,0 +1,42 @@
+// flex helpers
+.flex {
+    display: flex;
+
+    >*.full {
+        flex: 1;
+    }
+
+    &.column {
+        flex-direction: column;
+    }
+
+    &.row {
+        flex-direction: row;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+
+    &.justify-between {
+        justify-content: space-between
+    }
+}
+
+.primary-400 {
+    color: $primary-400;
+}
+
+.sercondary-200 {
+    color: $sercondary-200;
+}
+
+.body2 {
+    font-family: $body2-family;
+    font-size: $body2-fsize;
+    line-height:  $body2-line-height;
+}

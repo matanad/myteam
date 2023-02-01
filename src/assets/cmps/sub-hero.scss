@@ -1,0 +1,39 @@
+.sub.hero {
+    background-color: $sercondary-600;
+    padding-top: rem(140px);
+
+    .container{
+        padding-bottom: rem(140px);
+    }
+
+    hr{
+        border-color: $primary-400;
+    }
+
+    h3 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    img {
+        margin: 0 23px 23px 0;
+    }
+
+    ul {
+        max-width: 540px;
+
+        li {
+            display: flex;
+            padding-bottom: rem(34px);
+        }
+    }
+
+    img{
+        width: 72px;
+        height: 72px;
+    }
+}
+
+.sub.hero.results{
+    background-color: inherit;
+}

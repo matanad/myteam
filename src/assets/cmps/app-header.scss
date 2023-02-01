@@ -1,0 +1,21 @@
+.app-header {
+    padding: rem(74px) 0 rem(120px);
+
+    .logo{
+        margin-inline-end: rem(80.55px);
+    }
+
+    a{
+        &:hover{
+            color: $primary-400;
+        }
+    }
+}
+
+.main-nav {
+    margin-inline-end: auto;
+    ul {
+        gap: rem(48px);
+        flex-grow: 1;
+    }
+}

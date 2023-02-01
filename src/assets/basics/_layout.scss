@@ -1,0 +1,18 @@
+.main-layout {
+    width: 100%;
+
+    
+
+    &.full>* {
+        max-width: 1110px;
+        margin: 0 auto;
+
+        @media (max-width: 1300px) {
+            max-width: 689px;
+        }
+
+    }
+    .container{
+        width: 100%;
+    }
+}
