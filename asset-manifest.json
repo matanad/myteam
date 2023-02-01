@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6505083f.css",
+    "main.css": "/static/css/main.a0c1d946.css",
     "main.js": "/static/js/main.327d0374.js",
     "static/media/livvic-bold.ttf": "/static/media/livvic-bold.089af19ac41ce144a96c.ttf",
     "static/media/livvic-semibold.ttf": "/static/media/livvic-semibold.c79c53d29c413ab69adb.ttf",
@@ -12,11 +12,11 @@
     "static/media/bg-boost-desktop.svg": "/static/media/bg-boost-desktop.772154c9b0e451733f5ef5a737ffe720.svg",
     "static/media/bg-pattern-home-2.svg": "/static/media/bg-pattern-home-2.889d5d8c448ed043a71b.svg",
     "index.html": "/index.html",
-    "main.6505083f.css.map": "/static/css/main.6505083f.css.map",
+    "main.a0c1d946.css.map": "/static/css/main.a0c1d946.css.map",
     "main.327d0374.js.map": "/static/js/main.327d0374.js.map"
   },
   "entrypoints": [
-    "static/css/main.6505083f.css",
+    "static/css/main.a0c1d946.css",
     "static/js/main.327d0374.js"
   ]
 }
